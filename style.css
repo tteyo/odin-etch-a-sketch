@@ -1,7 +1,25 @@
 body{
     display:flex;
+    flex-direction:column;
     min-height: 100vh;
     margin:0;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display:flex;
+    width:400px;
+    height:400px;
+    flex-wrap: wrap;
+}
+
+.gridBox {
+    width: 23px;
+    height: 23px;
+    border: solid 1px grey;
+}
+
+.colored {
+    background-color: black;
 }
