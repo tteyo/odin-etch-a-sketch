@@ -1,25 +1,15 @@
 body{
-    display:flex;
-    flex-direction:column;
     min-height: 100vh;
-    margin:0;
-    align-items: center;
-    justify-content: center;
 }
 
-.container {
-    display:flex;
-    width:400px;
-    height:400px;
-    flex-wrap: wrap;
-}
-
-.gridBox {
-    width: 23px;
-    height: 23px;
-    border: solid 1px grey;
-}
-
-.colored {
+.colored{
     background-color: black;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
 }
